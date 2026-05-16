@@ -32,13 +32,16 @@ bot.onText(/\/live/, async (msg) => {
   try {
 
     const response = await axios.get(
-      'https://v3.football.api-sports.io/fixtures?live=all',
-      {
-        headers: {
-          'x-apisports-key': FOOTBALL_API_KEY
-        }
-      }
-    );
+  'https://v3.football.api-sports.io/fixtures',
+  {
+    headers: {
+      'x-apisports-key': FOOTBALL_API_KEY
+    },
+    params: {
+      live: 'all'
+    }
+  }
+);
 
     const matches = response.data.response;
 
