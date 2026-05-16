@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="https://i.imgur.com/6QK8F8M.png" width="250">
+<img src="[https://i.imgur.com/6QK8F8M.png](https://images.unsplash.co](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1600&auto=format&fit=crop)" width="250">
 
 </p>
 
@@ -71,4 +71,4 @@ BetVision AI utilise :
 ## 1️⃣ Cloner le projet
 
 ```bash
-git clone https://github.com/TON-USERNAME/betvision-ai.git
+git clone https://github.com/leonardhugon0-glitch/betvision-ai.git
