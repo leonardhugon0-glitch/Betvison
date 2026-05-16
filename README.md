@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="[https://i.imgur.com/6QK8F8M.png](https://images.unsplash.co](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1600&auto=format&fit=crop)" width="250">
+<img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1600&auto=format&fit=crop" width="900">
 
 </p>
 
