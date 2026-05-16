@@ -1,9 +1,9 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const TELEGRAM_TOKEN = '8506569030:AAGLY1URFW0vBZz5DXJRJrzsIHkshh-mL1U';
-const FOOTBALL_API_KEY = 'e13cbc1a61403222be55ca2c2741b249';
-const GROQ_API_KEY = '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';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const FOOTBALL_API_KEY = process.env.FOOTBALL_API_KEY;
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, {
   polling: true
